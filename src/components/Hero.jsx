@@ -32,7 +32,8 @@ export default function Hero() {
           {/* Right Image */}
           <div className="col-md-5 text-center">
             <img
-              src="/images/KEITH_01_3.jpg"
+              //   src="/images/KEITH_01_3.jpg"
+              src={`${import.meta.env.BASE_URL}images/KEITH_01_3.jpg`}
               alt="Profile"
               className="img-fluid rounded-circle shadow"
               style={{
